@@ -20,6 +20,17 @@
 
     </com.google.android.material.appbar.AppBarLayout>
 
+    <TextView
+        android:id="@+id/textViewActivity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="16dp"
+        android:text="Hello World!"
+        android:textSize="24sp" />
+
     <include layout="@layout/content" />
+
+
 
 </androidx.coordinatorlayout.widget.CoordinatorLayout>
