@@ -5,11 +5,11 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import com.krishanshamod.simple_android_application_4.databinding.FragmentFirstBinding
+import com.krishanshamod.simple_android_application_4.databinding.FragmentBinding
 
-class FirstFragment : Fragment() {
+class Fragment : Fragment() {
 
-    private var _binding: FragmentFirstBinding? = null
+    private var _binding: FragmentBinding? = null
     private val binding get() = _binding!!
 
     override fun onCreateView(
@@ -17,7 +17,7 @@ class FirstFragment : Fragment() {
         savedInstanceState: Bundle?
     ): View? {
 
-        _binding = FragmentFirstBinding.inflate(inflater, container, false)
+        _binding = FragmentBinding.inflate(inflater, container, false)
         return binding.root
 
     }
